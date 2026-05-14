@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="About Ayub Khan — background, education, and how I approach site supervision." />
+    <title>About · Ayub Khan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&family=Literata:ital,opsz,wght@0,7..72,500..700;1,7..72,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-name">Ayub Khan</span>
+          <span class="brand-tag">Administrative &amp; Site Supervisor</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="nav-toggle-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Toggle menu</span>
+        </button>
+        <nav class="site-nav" id="site-menu" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="page-hero section-head">
+        <p class="section-kicker">About</p>
+        <h1 class="page-title">From filing cabinets to supervising crews</h1>
+      </header>
+
+      <div class="two-col">
+        <div class="prose">
+          <p>
+            I started in site administration because I like systems: names in the right register, quantities that match
+            the delivery note, and a paper trail that still makes sense six months later. That foundation turned into
+            responsibility faster than I expected — within about a year I was helping run the human and logistical side
+            of the work, not just recording it.
+          </p>
+          <p>
+            Today I am comfortable in two modes at once: on your feet with supervisors and workers, and at the desk
+            with spreadsheets, invoices, and formal correspondence. Oil and gas construction is not forgiving of gaps in
+            either place, so I have learned to move between them without dropping detail.
+          </p>
+          <p>
+            I also use modern tools — including AI-assisted drafting and reporting — as accelerators, not replacements for
+            judgment. The goal is always the same: accurate records, clear language, and decisions that can be defended
+            if someone asks questions three projects from now.
+          </p>
+          <p>
+            I am open to international relocation and high-pressure, multicultural environments. References are
+            available on request.
+          </p>
+        </div>
+        <aside>
+          <div class="card mb-card">
+            <h3 class="sidebar-card-title">Education</h3>
+            <p class="meta">Formal qualifications</p>
+            <ul class="edu-list">
+              <li><strong>Secondary School Certificate (10th grade)</strong></li>
+              <li>
+                <strong>Workers Welfare School</strong>, Morgah, Rawalpindi · 2020–2021
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 class="sidebar-card-title">Languages</h3>
+            <ul class="sidebar-list">
+              <li>English — proficient</li>
+              <li>Urdu — fluent</li>
+              <li>Pashto — native</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="y"></span> Ayub Khan · <a href="contact.html">Contact</a></p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
