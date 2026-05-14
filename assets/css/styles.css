@@ -251,6 +251,10 @@ main {
   align-items: center;
 }
 
+.hero-actions--spaced {
+  margin-top: 1.25rem;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -338,6 +342,46 @@ main {
 
 .section--flush {
   padding-top: 0;
+}
+
+.section-kicker--tight {
+  margin-bottom: 1rem;
+}
+
+.home-banner {
+  margin-top: clamp(2.5rem, 6vw, 4rem);
+  padding: 1.35rem 1.5rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: linear-gradient(
+    125deg,
+    rgba(140, 59, 18, 0.1) 0%,
+    #fff 55%
+  );
+  box-shadow: var(--shadow);
+}
+
+.home-banner h2 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--ink);
+  margin: 0 0 0.65rem;
+  letter-spacing: -0.02em;
+}
+
+.home-banner ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--ink-muted);
+  font-size: 0.98rem;
+}
+
+.home-banner li {
+  margin-bottom: 0.4rem;
+}
+
+.home-banner li:last-child {
+  margin-bottom: 0;
 }
 
 .section-head {
